@@ -6,11 +6,27 @@ If the digit guessed is both the correct value and position, print "C".
 '''
 
 import random
+from colorama import Fore, Style
+from matplotlib.pylab import f
 
-# Generate a random 4 digit number
+# Explain the game to the user
+print(
+    f"{Fore.RED}Welcome Mastermind!\n"
+    f"{Style.RESET_ALL}\n"
+    f"I've created a four digit number.\n"
+    f"\n"
+    f"You have {Fore.GREEN}10 tries{Style.RESET_ALL} to guess the number.\n"
+    f"Each time you guess, I will give you feedback.\n"
+    f"If a digit is {Fore.GREEN}correct and in the right position{Style.RESET_ALL}, I will say {Fore.GREEN}'C'{Style.RESET_ALL}.\n"
+    f"If a digit is {Fore.YELLOW}correct but in the wrong position{Style.RESET_ALL}, I will say {Fore.YELLOW}'B'{Style.RESET_ALL}.\n"
+    f"If a digit is {Fore.RED}incorrect{Style.RESET_ALL}, I will say {Fore.RED}'A'{Style.RESET_ALL}.\n"
+    f"{Fore.GREEN}Good luck!{Style.RESET_ALL}\n"
+    )
+
 number = random.randint(1, 9999)
 four_digit_number = "{:04d}".format(number)
-print(four_digit_number) # For testing purposes
+
+#print(four_digit_number) # For testing purposes
 
 # User has 10 tries to guess the number
 guess_tracker = 10
@@ -23,18 +39,20 @@ while guess_tracker <= 10 and guess_tracker > 0:
         continue
 
     if user_guess == four_digit_number:
-        print("Awesome, that's the correct number!")
+        print(
+            f"{Fore.GREEN}Awesome, {four_digit_number} is the correct number!{Style.RESET_ALL}"
+            )
         break
 
     elif user_guess != four_digit_number:
         feedback_string = ""
         for i in range(4):
             if user_guess[i] == four_digit_number[i]:
-                feedback_string += "C"
+                feedback_string += f"{Fore.GREEN}C{Style.RESET_ALL}"
             elif user_guess[i] in four_digit_number:
-                feedback_string += "B"
+                feedback_string += f"{Fore.YELLOW}B{Style.RESET_ALL}"
             else:
-                feedback_string += "A"
+                feedback_string += f"{Fore.RED}A{Style.RESET_ALL}"
         print(feedback_string)
 
         guess_tracker -= 1
