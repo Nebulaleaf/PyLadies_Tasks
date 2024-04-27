@@ -64,7 +64,13 @@ def play_game():
         else:
             provide_feedback(user_guess, actual_number)
             guess_tracker -= 1
-            print(f"You have {guess_tracker} guesses left.")
+            if guess_tracker == 0:
+                print(
+                    f"{Fore.RED}Sorry, you're out of guesses. The correct number was {actual_number}.{Style.RESET_ALL}"
+                    )
+                break
+            else:
+                print(f"You have {guess_tracker} guesses left.")          
 
 # Start the game
 play_game()
