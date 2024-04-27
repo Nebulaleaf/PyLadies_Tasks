@@ -26,7 +26,7 @@ Here you will find a series of tasks that are part of our ongoing efforts to kee
 - **Description**: A Python implementation of the classic game Mastermind, where you need to guess the secret code in a limited number of attempts.
 - **Usage**: Run `task_4_mastermind.py` to play the game.
 
-### Task 4: Remove Symbols
+### Task 5: Remove Symbols
 - **Description**: Find 2 or more ways to clean a string from numbers.
 - **Usage**: Run `task_5_remove_symbols.py` to play the game.
 - 
