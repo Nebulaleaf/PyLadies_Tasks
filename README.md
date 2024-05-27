@@ -29,7 +29,23 @@ Here you will find a series of tasks that are part of our ongoing efforts to kee
 ### Task 5: Remove Symbols
 - **Description**: Find 2 or more ways to clean a string from numbers.
 - **Usage**: Run `task_5_remove_symbols.py` to play the game.
-- 
+
+### Task 6: List puzzle
+- **Description**: Calculates the largest product of three integers from a given list of integers.
+- **Usage**: Run `task_6_list_puzzle.py`to puzzle.
+
+### Task 7: Fibonacci numbers
+- **Description**: Show a certain amount of fibonacci numbers.
+- **Usage**: Run `task_7_fibonacci_numbers.py`to find a certain amount of fibonacci numbers.
+
+### Task 8: Alarm clock
+- **Description**: It's a simple alarm clock with snooze function.
+- **Usage**: Run `task_8_alarm_clock.py`to set, delete or snooze an alarm.
+
+### Task 9: Hangman
+- **Description**: Find a mystery word in 7 attempts. With every false guess an ascii-guy is more likely going to hang.
+- **Usage**: Run `task_9_hangman.py`to play a round or two hangman.
+
 ## Getting Started
 
 To get started with these tasks, clone this repository and navigate to the respective task file you wish to run.
