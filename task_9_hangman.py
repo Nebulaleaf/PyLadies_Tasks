@@ -146,6 +146,3 @@ def hangman_game():
         print("Goodbye!")
 
 hangman_game()
-
-
-
