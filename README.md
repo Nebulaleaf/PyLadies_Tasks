@@ -46,6 +46,11 @@ Here you will find a series of tasks that are part of our ongoing efforts to kee
 - **Description**: Find a mystery word in 7 attempts. With every false guess an ascii-guy is more likely going to hang.
 - **Usage**: Run `task_9_hangman.py`to play a round or two hangman.
 
+### Task 10: Chicken and Rabbits
+- **Description**: Given amount of heads and legs summs up to correct count of chicken and rabbits.
+- **Usage**: Run `task_10_chicken_and_rabbits.py`to count the animals on the farm.
+
+
 ## Getting Started
 
 To get started with these tasks, clone this repository and navigate to the respective task file you wish to run.
