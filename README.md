@@ -50,6 +50,9 @@ Here you will find a series of tasks that are part of our ongoing efforts to kee
 - **Description**: Given amount of heads and legs summs up to correct count of chicken and rabbits.
 - **Usage**: Run `task_10_chicken_and_rabbits.py`to count the animals on the farm.
 
+### Task 11: Waiting game
+- **Description**: Random seconds from 2 to 15 are given. The users goal is to wait the sspecified number of seconds and stop at the right time.
+- **Usage**: Run `task_11_the_waiting_game.py`to show how good your time feeling works.
 
 ## Getting Started
 
