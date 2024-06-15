@@ -54,6 +54,10 @@ Here you will find a series of tasks that are part of our ongoing efforts to kee
 - **Description**: Random seconds from 2 to 15 are given. The users goal is to wait the sspecified number of seconds and stop at the right time.
 - **Usage**: Run `task_11_the_waiting_game.py`to show how good your time feeling works.
 
+### Task 12: Story Generator
+- **Description**: When, Who, Name, Residence, Went, Happend lists filled with funny various options, printed to a random story.
+- **Usage**: Run `task_12_story_generator.py`to create a funny story about programmers.
+
 ## Getting Started
 
 To get started with these tasks, clone this repository and navigate to the respective task file you wish to run.
